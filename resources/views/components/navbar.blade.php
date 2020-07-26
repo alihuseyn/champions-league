@@ -1,7 +1,7 @@
 <nav class="navbar navbar-light bg-info">
     <span class="navbar-brand mb-0 h1">
         @if($menu['home'] ?? false)
-            <a class="text-decoration-none text-white mr-1" href="{{ route('play') }}">
+            <a class="text-decoration-none text-white mr-1" href="{{ route('home') }}">
                 <i class="fas fa-chevron-left"></i>
             </a>
         @endif
