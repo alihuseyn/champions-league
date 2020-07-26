@@ -1,0 +1,9 @@
+.matches {
+  padding-left: 5px;
+  padding-right: 5px;
+
+  .match {
+    display: grid;
+    grid-template-columns: 1fr 50px 1fr;    
+  }
+}
